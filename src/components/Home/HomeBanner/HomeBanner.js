@@ -1,31 +1,27 @@
 import React from "react";
 import { Container, Button, Row, Col } from "react-bootstrap";
 import './HomeBanner.css'
-import bannerImg from '../../../images/watch2.png'
 import { Link } from "react-router-dom";
 const HomeBanner = () => {
-    
+
   return (
     <div>
       <div className='main-banner d-flex align-items-center'>
-      <Container>
-        <Row lg={2} sm={1} xs={1} >
-          <Col>
-            <div className='pt-3'>
+        <Container>
+          <Row lg={2} sm={1} xs={1} >
+            <Col>
+              <div className='pt-3'>
                 <h3 className="text-warning">NEW ARRIVALS</h3>
-              <h1 className="banner-heading">Our Best</h1>
-              <h1 className="banner-heading">Collection</h1>
-              <h2 className="text-info">Upo 40% Off</h2>
-              <Link to='/explore'>
-              <Button variant="danger" className="px-5    ">EXPLORE</Button>
-              </Link>
-            </div>
-          </Col>
-          <Col>
-          <img  className="img-fluid" src={bannerImg} alt="" />
-          </Col>
-        </Row>
-      </Container>
+                <h1 className="banner-heading">Our</h1>
+                <h1 className="banner-heading">Collection</h1>
+                <h2 className="text-info">Up to 33% Off</h2>
+                <Link to='/explore'>
+                  <Button variant="danger" className="px-5">EXPLORE</Button>
+                </Link>
+              </div>
+            </Col>
+          </Row>
+        </Container>
       </div>
     </div>
   );

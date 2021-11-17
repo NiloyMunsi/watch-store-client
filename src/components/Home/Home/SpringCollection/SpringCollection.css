@@ -1,9 +1,9 @@
 .collection-bg{
-    background-image: url('../../../../images/collectionbg\ \(1\).jpg');
+    background-image: url('../../../../images/bgwin.jpg');
     height: 100vh;
 }
 .collection-heading{
-    background-image:linear-gradient(rgba(255, 99, 71, 0.15),rgba(255, 99, 71, 0.13)), url('../../../../images/springCollection.jpg');
+    /* background-image:linear-gradient(rgba(255, 99, 71, 0.15),rgba(255, 99, 71, 0.13)), url('../../../../images/bannerbg2.jpg'); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

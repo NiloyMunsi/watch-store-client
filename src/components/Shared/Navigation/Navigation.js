@@ -7,7 +7,7 @@ const Navigation = () => {
   const { user, logOut } = useAuth()
   return (
     <div>
-      <Navbar className="navbar" bg="dark" expand="lg">
+      <Navbar className="navbar" bg="primary" expand="lg">
         <Container >
           <Navbar.Brand className="text-light" href="#">O'Clock</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbarScroll" />

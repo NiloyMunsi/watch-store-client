@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 .App {
-   background-color: #333;
+   background-color: rgb(126, 92, 42);
    color: white;
    font-family: 'Oswald', sans-serif;
 }
 .css-12i7wg6-MuiPaper-root-MuiDrawer-paper{
-  background-color: black !important
+  background-color: rgb(126, 92, 42) !important
 }
 li{
   list-style: none;
@@ -27,7 +27,7 @@ li a{
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: rgb(126, 92, 42);
   min-height: 100vh;
   display: flex;
   flex-direction: column;
