@@ -27,9 +27,9 @@ const Footer = () => {
         <Col className="border-end" >
           <h4>Contact us</h4>
           <h2>O'Clock</h2>
-          <li>+1-0987659087</li>
-          <li>E-mail:timiultimate@gmail.com</li>
-          <li>390/B New York-7434</li>
+          <li>+88 3234567</li>
+          <li>E-mail:oclockservice@gmail.com</li>
+          <li>21/c,sk lane,United State</li>
         </Col>
 
         <Col className="border-end">
@@ -51,7 +51,7 @@ const Footer = () => {
       <div className="text-center">
         <hr />
         <p>
-          <small>Copyright © 2021. All rights reserved.</small>
+          <small>Copyright © 2021. All rights reserved by Niloy.</small>
         </p>
       </div>
     </Container>
